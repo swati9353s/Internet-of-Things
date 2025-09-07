@@ -1,8 +1,8 @@
 # Internet-of-Things
 
-# Multipurpose Agriculture Bot 🌱🤖
+# Multipurpose Agriculture Bot 
 
-## 📌 Overview
+##  Overview
 The **Multipurpose Agriculture Bot** is an **IoT-based agricultural robot** designed to assist farmers in performing multiple farming operations efficiently.  
 The bot integrates robotics, IoT, and sensors to perform essential tasks such as:
 - Ploughing
@@ -14,7 +14,7 @@ This project was developed as part of the **Internet of Things (22ECSC303) Cours
 
 ---
 
-## 🎯 Motivation
+##  Motivation
 Agriculture faces challenges such as:
 - Lack of labor availability  
 - High labor costs  
@@ -25,7 +25,7 @@ The bot helps overcome these challenges by automating essential farming tasks, r
 
 ---
 
-## 📝 Problem Statement
+##  Problem Statement
 To design an **IoT multi-objective robot** that can:
 - Perform ploughing and sowing operations  
 - Monitor temperature & humidity  
@@ -33,7 +33,7 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## 🚀 Features
+##  Features
 - Remote-controlled movement using a mobile app (via Bluetooth)  
 - Autonomous ploughing using DC motor and rack-pinion mechanism  
 - Automatic seed sowing with servo motor mechanism  
@@ -43,7 +43,7 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 - Arduino Uno Rev3  
 - TT Gear motors (x4)  
 - 60 RPM DC Motor  
@@ -56,21 +56,21 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 - **Arduino IDE** – for microcontroller programming  
 - **MIT App Inventor** – to design the mobile control application  
 - **Firebase** – cloud database to store operational data  
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 - **Client Side:** Mobile app built using MIT App Inventor  
 - **Server Side:** Arduino Uno receives commands via Bluetooth and controls motors/sensors  
 - **Cloud Storage:** Firebase database stores operation logs (movement, sowing, ploughing, temperature, humidity)  
 
 ---
 
-## 💰 Cost Estimation
+##  Cost Estimation
 | Component           | Qty | Unit Cost (₹) | Total (₹) |
 |---------------------|-----|---------------|-----------|
 | Arduino Uno         | 1   | 1100          | 1100      |
@@ -88,7 +88,7 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## 📲 Usage
+##  Usage
 1. Power on the bot using 12V & 5V DC adapters  
 2. Connect the mobile app to the bot via **Bluetooth (HC-05)**  
 3. Use the app to:  
@@ -100,7 +100,7 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## ✅ Functional Requirements
+##  Functional Requirements
 - Easy to operate by farmers  
 - Supports ploughing and sowing  
 - Real-time temperature & humidity monitoring  
@@ -109,7 +109,7 @@ To design an **IoT multi-objective robot** that can:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 The **Multipurpose Agriculture Bot** demonstrates how IoT and robotics can transform agriculture.  
 Key outcomes:
 - Reduced labor requirements  
@@ -121,7 +121,7 @@ This project provides a **low-cost, effective solution** for small and medium-sc
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 - Swati Mudavi (01FE20BCS163)  
 - Prajwal Shavi (01FE20BCS166)  
 - Neha Patil (01FE20BCS167)  
@@ -131,7 +131,7 @@ Mrs. Meenaxi M Raikar
 
 ---
 
-## 📚 References
+##  References
 - IEEE papers and related research (as per literature survey in project report)  
 - IoT Smart Agriculture Applications  
 - Arduino, MIT App Inventor, and Firebase documentation
